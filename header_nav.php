@@ -238,28 +238,30 @@
             float: left;
             width: 20%;
             padding: 10px;
-            height: 200px;
+            z-index: 2;
+            /*height: 200px;*/
         }
         .form-header{
             float: left;
             width: 60%;
             padding: 10px;
-            height: 200px;
+            /*height: 200px;*/
         }
         .header-advert1{
             float: left;
             width: 20%;
             padding: 10px;
-            height: 200px;
+            z-index: 2;
+            /*height: 200px;*/
         }
-        .navigation-below:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
+        /*.navigation-below:after {*/
+            /*content: "";*/
+            /*display: table;*/
+            /*clear: both;*/
+        /*}*/
     </style>
     <div class="entire-header">
-    <div class = "navigation-below" style="padding-left: 30px; padding-right: 10px; padding-top: 30px">
+    <div class = "navigation-below" style="padding-left: 30px; padding-right: 10px; padding-top: 30px; height: 125px">
         <div class = "image-header">
             <img src="logo_edited.png" style="width: 200px; height: auto; padding-top: 10px; padding-left: 10px">
         </div>
@@ -279,54 +281,38 @@
             <input type="submit" class="btn btn-danger" id="nepal-submit" value="SEARCH" style="height: 30px; font-size: small">
         </form>
     </div>
+
         <div class="header-advert1">
-            <img src="adv_bangladesh.jpg" style="width: 220px; height: auto">
+            <img src="adv_bangladesh.jpg" style="width: 80%; height: auto">
         </div>
-
-
-
     </div>
+        <style>
+            .header-in-header{
+                width: 100%;
+                /*height: 55px;*/
+                background-color: #404040;
+                padding-left: 30%;
+                font-size: small;
+                color: #cccccc;
+            }
+            .header-in-header a{
+                color: #cccccc;
+
+            }
+        </style>
+
+        <div class = "header-in-header" style="width: 100%; position: relative; top: -34px; width: 100%; overflow: hidden; z-index: -1; padding-top: 15px; padding-bottom: 10px">
+<!--            <ul class="list-unstyled list-inline" style="width: 500px; float: left; padding-top: 20px">-->
+<!--                <li class="list-inline-item"><a href="#">text1</a></li>-->
+<!--                <li class="list-inline-item"><a href="#">text2</a></li>-->
+<!--                <li class="list-inline-item"><a href="#">text3</a></li>-->
+<!--                <li class="list-inline-item"><a href="#">text4</a></li>-->
+<!--            </ul>-->
+            <span style="font-weight: bold"> Popular Courses</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Engineering</a>&nbsp;&nbsp;<a href = "#">Medicine</a>&nbsp;&nbsp;<a href="#">Aviation</a>&nbsp;&nbsp;<a href = "#">Business</a>&nbsp;&nbsp;<a href = "#">Nursing</a>&nbsp;&nbsp;<a href = "#">Accountancy</a><br><br>
+            <span style="font-weight: bold">Popular Country</span> &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Australia</a>&nbsp;&nbsp;<a href = "#">New Zealand</a>&nbsp;&nbsp;<a href="#">India</a>&nbsp;&nbsp;<a href = "#">USA</a>&nbsp;&nbsp;<a href = "#">Japan</a>&nbsp;&nbsp;<a href = "#">China</a>
+        </div>
     </div>
-<div class="content">
-    <div class="container">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum.
-        </p>
-        <p>
-            Nulla efficitur pharetra leo. In convallis lobortis
-            nisl, ut pretium purus aliquam eget. Maecenas
-            vestibulum venenatis eros, a volutpat mi malesuada eu.
-            Cum sociis natoque penatibus et magnis dis parturient
-            montes, nascetur ridiculus mus. Nam mollis vitae eros
-            quis congue. Ut eget massa semper, cursus ligula et,
-            euismod lacus. Sed neque metus, tristique eget
-            scelerisque vitae, luctus at metus. Proin vel
-            ullamcorper arcu. Praesent dapibus eleifend turpis et
-            euismod. Sed tincidunt lobortis erat, nec elementum
-            libero molestie sed. Phasellus eget tristique lorem.
-        </p>
-        <p>
-            Maecenas dictum molestie nisi, eu ornare mauris posuere
-            a. Proin tempus est ligula, ut varius risus faucibus
-            nec. Morbi ultrices leo et vulputate facilisis. Nunc
-            congue, leo a facilisis dictum, metus neque tempus
-            arcu, ac aliquet nulla mi a felis. Maecenas quis
-            euismod velit. Curabitur dapibus ipsum vitae
-            ullamcorper auctor. Nullam nec ultricies urna.
-            Curabitur lacinia nec ipsum a condimentum. Quisque
-            lacinia faucibus augue, sed efficitur enim mollis eget.
-            In et metus non ante interdum varius nec in sem.
-        </p>
-    </div>
-</div>
+
 
     <script>
         function myFunction() {
