@@ -302,12 +302,7 @@
         </style>
 
         <div class = "header-in-header" style="width: 100%; position: relative; top: -34px; width: 100%; overflow: hidden; z-index: -1; padding-top: 15px; padding-bottom: 10px">
-<!--            <ul class="list-unstyled list-inline" style="width: 500px; float: left; padding-top: 20px">-->
-<!--                <li class="list-inline-item"><a href="#">text1</a></li>-->
-<!--                <li class="list-inline-item"><a href="#">text2</a></li>-->
-<!--                <li class="list-inline-item"><a href="#">text3</a></li>-->
-<!--                <li class="list-inline-item"><a href="#">text4</a></li>-->
-<!--            </ul>-->
+
             <span style="font-weight: bold"> Popular Courses</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Engineering</a>&nbsp;&nbsp;<a href = "#">Medicine</a>&nbsp;&nbsp;<a href="#">Aviation</a>&nbsp;&nbsp;<a href = "#">Business</a>&nbsp;&nbsp;<a href = "#">Nursing</a>&nbsp;&nbsp;<a href = "#">Accountancy</a><br><br>
             <span style="font-weight: bold">Popular Country</span> &nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Australia</a>&nbsp;&nbsp;<a href = "#">New Zealand</a>&nbsp;&nbsp;<a href="#">India</a>&nbsp;&nbsp;<a href = "#">USA</a>&nbsp;&nbsp;<a href = "#">Japan</a>&nbsp;&nbsp;<a href = "#">China</a>
         </div>
